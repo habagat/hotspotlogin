@@ -136,12 +136,7 @@ function doOnLoad(result, URL, userurl, redirurl, timeleft,reply) {
             alert('* Sorry! Invalid Username or Password *');
         }
 	}
-	
-	if (result == 11 ){
-		alert(reply);
-	}
-	
-		    
+			    
 }
 
 
