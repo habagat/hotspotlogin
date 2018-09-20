@@ -138,7 +138,7 @@ function doOnLoad(result, URL, userurl, redirurl, timeleft,reply) {
 	}
 	
 	if (result == 11 ){
-		alert('* Sorry! you are already loggedin.*');
+		alert(reply);
 	}
 	
 		    
