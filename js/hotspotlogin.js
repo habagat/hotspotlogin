@@ -125,7 +125,9 @@ function doOnLoad(result, URL, userurl, redirurl, timeleft,reply) {
 	
 	// added code by wens to dispay the alert status of login
 	if(result == 2){
-        
+    
+		alert(reply)
+		
         if(reply){
             var str1; 
             str1 =        \"   * Sorry! Your've reached maximum time limit * \\n\";
